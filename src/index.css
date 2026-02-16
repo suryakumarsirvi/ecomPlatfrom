@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+
+.nav-link {
+  @apply relative text-sm cursor-pointer
+  after:content-['']
+  after:absolute
+  after:left-0
+  after:bottom-0
+  after:h-[0.5px]
+  after:w-full
+  after:bg-black
+  after:scale-x-0
+  after:origin-left
+  after:transition-transform
+  after:duration-300
+  hover:after:scale-x-100;
+}
