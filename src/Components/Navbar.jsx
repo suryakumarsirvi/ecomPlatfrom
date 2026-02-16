@@ -17,7 +17,7 @@ const Navbar = () => {
       <img
         onClick={() => window.location.reload()}
         className="h-16 object-cover cursor-pointer"
-        src="public/Images/logo.png"
+        src="Images/logo.png"
         alt="App Navbar Logo"
       />
       <div className="flex items-center gap-6">
