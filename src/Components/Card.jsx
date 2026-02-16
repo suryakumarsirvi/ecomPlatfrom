@@ -24,7 +24,7 @@ const Card = () => {
               key={id}
               className="w-64 m-2 bg-white rounded-md shadow-md hover:shadow-xl transition duration-300 p-2 group"
             >
-              <div className="bg-gray-100 rounded overflow-hidden h-48 flex items-center justify-center">
+              <div className="bg-gray-100 rounded cursor-pointer overflow-hidden h-48 flex items-center justify-center">
                 <img
                   src={image}
                   alt="product"
